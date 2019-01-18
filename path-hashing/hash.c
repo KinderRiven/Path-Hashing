@@ -1,4 +1,4 @@
-// xxHash is used as an example of the hash function in path hashing 
+// xxHash is used as an example of the hash function in path hashing
 
 #include "hash.h"
 
@@ -13,7 +13,6 @@
 #define shifting_hash(x, r) ((x << r) | (x >> (64 - r)))
 #define TO64(x) (((U64_INT *)(x))->v)
 #define TO32(x) (((U32_INT *)(x))->v)
-
 
 typedef struct U64_INT
 {

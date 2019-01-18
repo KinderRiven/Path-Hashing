@@ -32,11 +32,11 @@ typedef struct path_hash
 
 path_hash *path_init(uint32_t levels, uint32_t reserved_levels);       // Initialize a path hashing
 
-uint8_t path_insert(path_hash *path, uint8_t *key, uint8_t *value);          // Insert an item in path hashing
+uint8_t path_insert(path_hash *path, uint8_t *key, uint8_t *value);    // Insert an item in path hashing
 
-uint8_t path_delete(path_hash *path, uint8_t *key);                       // Delete an item in path hashing
+uint8_t path_delete(path_hash *path, uint8_t *key);                    // Delete an item in path hashing
 
-uint8_t* path_query(path_hash *path, uint8_t *key);                          // Query an item in path hashing
+uint8_t* path_query(path_hash *path, uint8_t *key);                    // Query an item in path hashing
 
 
 
